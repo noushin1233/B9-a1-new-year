@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: Merriweather;
-    
-   
+   }
+div{
+    display: block;
 }
+/* new year box */
 .container{
     width: 100%;
 height: 100vh;
@@ -18,13 +18,14 @@ height: 100vh;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
-    height: 100vh;
+    width: 1320px;
+    height: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     color: #FFF;
+    border-radius: 20px;
 
 text-align: center;
 font-size: 35px;
@@ -74,115 +75,229 @@ margin: 30px;
 background-image: url('../image/New\ Year\ Photo.png');
 background-repeat: no-repeat;
 }
+/* banner */
+
+
 .banner{
- height: 80vh;
- width: 100%;
- display: flex;
- align-items: center;
- justify-content: space-around;
- background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
- background-repeat: no-repeat;
- background-size: cover;
- border-radius: 0;
-
-text-align: left;
-font-size: 20px;
-font-weight: 900;
-
+    height: 600px;
+    width: 1320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-left: 70px;
+   
+   text-align: left;
+   font-size: 20px;
+   font-weight: 900;
+   
+   }
+   .banner-greeting{
+       color: #FFF;
+   
+   font-size: 64px;
+   font-style: normal;
+   font-weight: 900;
+   line-height: 88px; /* 137.5% */
+   letter-spacing: 7.04px;
+   padding: 5px;
+   }
+   .banner-description{
+       color: rgba(255, 255, 255, 0.80);
+   font-family: Inter;
+   font-size: 20px;
+   font-weight: 400;
+   padding: 10px;
+   
+   }
+   .btn-primary{
+     
+   
+   color: #FFF;
+   background-color: #070211;
+   border: 0;
+   border-radius: 5px;
+   text-align: center;
+   font-family: Inter;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   text-transform: uppercase;
+   padding-left: 30px;
+   padding-top: 40px;
+   
+   }
+.section-one{
+   background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+   background-repeat: no-repeat;
+   justify-content: center;
+   background-size: cover;
+   margin-top: 70px;
+   width: 1320px;
+   height: 600px;
+   display: block;
+   margin-left: 75px;
+   border-radius: 20px;
 }
-.banner-greeting{
-    color: #FFF;
 
-font-size: 64px;
-font-style: normal;
-font-weight: 900;
-line-height: 88px; /* 137.5% */
-letter-spacing: 7.04px;
-padding: 5px;
+.section-title{
+   
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    align-items: center;
+    justify-content: center;
+    
+   
+        text-align: center;
+        padding-top: 200px;
 }
-.banner-description{
-    color: rgba(255, 255, 255, 0.80);
+    
+    .btn{
+        display: block;
+    padding: 16px 18px;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #F00;
+    margin-top: 100px;
+     border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+ }
+
+ .section-two{
+    margin-top: 50px;
+}
+      .portfolio-title{
+        color: #F00;
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 70px;
+      }
+    .portfolio-heading{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize; 
+         margin-left: 70px;
+         margin-top: 10px;
+    }
+    .description{
+        color: rgba(7, 2, 17, 0.60);
+
 font-family: Inter;
 font-size: 20px;
+font-style: normal;
 font-weight: 400;
-padding: 10px;
+line-height: 32px;
+margin-left: 70px;
+margin-top: 15px;
+    }
+.img-rec{
+    width: 120%;
+height: 450px;
+border: 100px;
+padding-right: 100px;
+margin-left: 65px;
+margin-top: 20px;
+}
+.sec-three{
+    background-color: rgba(255, 0, 0, 0.05);
+    background-repeat: no-repeat;
+    justify-content: center;
+    background-size: cover;
+    margin-top: 500px;
+    width: 1320px;
+    height: 600px;
+    display: block;
+    margin-left: 75px;
+    border-radius: 20px;
+    
+}
+.news-heading{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
 
 }
-.btn-primary{
-  
 
-color: #FFF;
-background-color: #070211;
-border: 0;
-border-radius: 5px;
+.news-description{
+color: rgba(7, 2, 17, 0.60);
 text-align: center;
 font-family: Inter;
 font-size: 20px;
 font-style: normal;
-font-weight: 700;
-line-height: normal;
-text-transform: uppercase;
-padding-left: 30px;
-padding-top: 40px;
+font-weight: 400;
+line-height: 32px;
+margin-top: 20px;
+margin-bottom: 40px;
 
 }
-
-
-.section-title{
-   
-color: #070211;
+.news-button{
+    width: 210px;
+height: 72px;
+    border-radius: 0px 50px 50px 0px;
+background: #F00;
+text-align: center;
+color: #FFF;
+text-align: center;
 font-family: Inter;
-font-size: 32px;
+font-size: 20px;
 font-style: normal;
 font-weight: 600;
-line-height: 56px;
-text-transform: capitalize;
-align-items: center;
-justify-content: center;
-}
-.abot{
-
-}
-.btn{
-    display: inline-flex;
-padding: 16px 32px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 8px;
-background-color: #F00;
-
-border: 0;
-color: white;
-font-size: 20px;
-font-weight: 700;
-
-  }
-  .gift{
-    color: #F00;
-
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
 line-height: normal;
-  }
-.dolor{
-    color: rgba(7, 2, 17, 0.60);
+text-transform: capitalize;
+}
+.new-img{
+    align-items: center;
+    width: 150px;
+height: 150px;
+justify-content: center;
+margin-left: 585px;
+margin-top: 80px;
+margin-bottom: 30px;
+}
+.bd{
+    margin-left: 336px;
+    border-radius: 50px 0px 0px 50px;
+    width: 648px;
+height: 72px;
+color: rgba(7, 2, 17, 0.30);
 
+text-align: left;
 font-family: Inter;
-font-size: 20px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 32px; 
+line-height: normal;
+margin-bottom: 80px;
 }
-.gap{
-    width: 120%;
-height: 450px;
-flex-shrink: 0;
-border: 2px;
-padding: 10px;
-}
+    
+    
 
 
 
